@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <style>
+    *{ 
+      overflow: hidden;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      cursor: crosshair;
+      image-Rendering:-moz-crisp-edges;
+      image-Rendering:crisp-edges;
+    }
+    canvas#a{
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+<!--jsfxr--Copyright>>>>https://github.com/mneubrand/jsfxr-->
+<script src='jsfxr.js'></script>
+
+<script src='Basic.js'></script>
+<script src='MapLevel.js'></script>
+<script src='Enemy.js'></script>
+<script src='Player.js'></script>
+<script src='Event.js'></script>
+
+<canvas id =a style='z-index: 1'></canvas>
+<canvas id =b style='z-index: 2'></canvas>
+</body>
+</html>
